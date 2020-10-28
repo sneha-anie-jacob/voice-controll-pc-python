@@ -20,7 +20,7 @@ while flag == "start" :
     try:
         command = listenit()
         tokens = word_tokenize(command)
-        key=["up", "down", "right", "tab" ,"left","next","stop", "enter","back","open"]
+        key=["up", "down", "right", "tab" ,"left","next","stop", "enter","back","okey","open"]
         for i in tokens:
             if i in key:
                 if i=="up":
@@ -46,6 +46,10 @@ while flag == "start" :
                     keyboard.press_and_release('backspace')                            ## simulates keyboard backspace key
                     print(i)
                 elif i=="open":
+                    keyboard.press_and_release('enter')                                ## simulates keyboard enter key
+                    flag= "stop"
+                    print(i)
+                elif i=="okey":
                     keyboard.press_and_release('enter')                                ## simulates keyboard enter key
                     flag= "stop"
                     print(i)
