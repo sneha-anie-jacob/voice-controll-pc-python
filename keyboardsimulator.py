@@ -1,10 +1,10 @@
-import keyboard                                                 ######      Keyboard library to simulate keyboard                                
-import speech_recognition                                       ######      Speech Recognition to convert speech to text              
-from nltk.tokenize import word_tokenize                         ######      NLTK to tokenize command
-import os                                                       ######      to import os functions
-import pyttsx3                                                  ######      pyttsx3 for elsa to reply
-import subprocess                                               ######      to start application as a subprocess
-#import threading                                               ######      for multi threading 
+import keyboard                                                   ######      Keyboard library to simulate keyboard                                
+import speech_recognition                                         ######      Speech Recognition to convert speech to text              
+from nltk.tokenize import word_tokenize                           ######      NLTK to tokenize command
+import os                                                         ######      to import os functions
+import pyttsx3                                                    ######      pyttsx3 for elsa to reply
+import subprocess                                                 ######      to start application as a subprocess
+#import threading                                                 ######      for multi threading 
 from googlesearch import search 
 import urllib
 import webbrowser
